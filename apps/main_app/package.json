@@ -1,0 +1,19 @@
+{
+  "name": "main-app",
+  "main": "./app.js",
+  "scripts": {
+    "start": "cross-env DEBUG='CSRF:MAIN-APP' PORT=3000 node bin/www",
+    "open": "open-cli http://localhost:3000"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
+  }
+}
